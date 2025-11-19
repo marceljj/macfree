@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
-macfree_help() {
+if [[ "$#" -eq 0 ]]; then
    echo "usage: $(basename '$0') [app path]"
    echo "disable Gatekeeper protection for a given application"
    echo
-}
-
-if [[ "$#" -eq 0 ]]; then
-   macfree_help
    exit 0
 fi
 
