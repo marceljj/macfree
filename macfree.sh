@@ -12,7 +12,7 @@ if [[ "$#" -eq 0 ]]; then
 fi
 
 if [[ $EUID -ne 0 ]]; then
-   echo "$(basename) must be run as root!"
+   echo "$(basename "$0") must be run as root!"
    echo
    exit 1
 fi
