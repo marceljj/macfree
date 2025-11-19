@@ -1,0 +1,22 @@
+.Dd 11/19/2025
+.Dt macfree 1
+.Os Darwin
+.Sh NAME
+.Nm macfree
+.Nd disable Gatekeeper protection for a given macOS application
+.Sh SYNOPSIS
+.Nm
+.Op Fl a Ar path         \" [-a path]
+.Op Ar file              \" [file]
+.Op Ar                   \" [file ...]
+.Ar arg0                 \" Underlined argument - use .Ar anywhere to underline
+arg2 ...                 \" Arguments
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+macOS automatically disables the execution of unsigned applications and
+executables through the Gatekeeper protocol - macfree disables this for
+ONLY the application/executable provided, using the built-in
+.Nm xattr
+command.
+.El
+.Sh SEE ALSO
+.Xr xattr 1
