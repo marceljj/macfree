@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 macfree_help() {
-   echo "usage: $(basename '$0') [app path]"
+   echo "usage: $(basename "$0") [app path]"
    echo "disable Gatekeeper protection for a given application"
    echo
 }
