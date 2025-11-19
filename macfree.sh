@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 macfree_help() {
-   echo "usage: $(basename "$0") [app path]"
+   echo "usage: $(basename "$0") [application/executable]"
    echo "disable Gatekeeper protection for a given application"
    echo
 }
@@ -12,7 +12,7 @@ if [[ "$#" -eq 0 ]]; then
 fi
 
 if [[ $EUID -ne 0 ]]; then
-   echo "macfree must be run as root!"
+   echo "$(basename) must be run as root!"
    echo
    exit 1
 fi
