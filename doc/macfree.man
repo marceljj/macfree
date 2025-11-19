@@ -6,10 +6,7 @@
 .Nd disable Gatekeeper protection for a given macOS application
 .Sh SYNOPSIS
 .Nm
-.Op Fl a Ar path
-.Op Ar file
-.Op Ar
-.Ar arg0
+.Op Ar application/executable
 arg2 ...
 .Sh DESCRIPTION
 macOS automatically disables the execution of unsigned applications and
