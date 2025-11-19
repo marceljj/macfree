@@ -7,7 +7,6 @@
 .Sh SYNOPSIS
 .Nm
 .Op Ar application/executable
-arg2 ...
 .Sh DESCRIPTION
 macOS automatically disables the execution of unsigned applications and
 executables through the Gatekeeper protocol - macfree disables this for
