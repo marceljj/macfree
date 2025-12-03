@@ -4,7 +4,7 @@ MF_VERSION="1.0"
 macfree_help() {
    echo "disable Gatekeeper protection for a given application"
    echo
-   echo "usage: $(basename "$0") [application/executable]"
+   echo "usage: $(basename "$0") [application/binary]"
    echo "options: [--help/-h]      -       display this dialog"
    echo "         [--version/-v]   -   display macfree version"
 }
