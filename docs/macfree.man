@@ -9,7 +9,7 @@
 .Op Ar application/binary
 .Sh DESCRIPTION
 macOS automatically disables the execution of unsigned applications and
-executables through the Gatekeeper protocol - macfree disables this for
+binaries through the Gatekeeper protocol - macfree disables this for
 ONLY the application/binary provided, using the built-in
 .Nm xattr
 command.
