@@ -6,11 +6,11 @@
 .Nd disable Gatekeeper protection for a given macOS application
 .Sh SYNOPSIS
 .Nm
-.Op Ar application/executable
+.Op Ar application/binary
 .Sh DESCRIPTION
 macOS automatically disables the execution of unsigned applications and
 executables through the Gatekeeper protocol - macfree disables this for
-ONLY the application/executable provided, using the built-in
+ONLY the application/binary provided, using the built-in
 .Nm xattr
 command.
 .El
